@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.navbar img{
+    width: 209.75px;
+    height: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: 500px;
+    font-size: 16px;
+    font-family: inter;
+    color: #333333;
+    margin-left: 50px;
+}
+
+.navbar  button{
+    width: 94px;
+    height: 40px;
+    background-color:#66AC66;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.navbar button:active{
+    background-color: #66ac66de;
+}
+
+.header{
+    display: flex;
+    gap: 222px;
+    margin-top: 100px;
+}
+
+.HEADER__left{
+    width: 495px;
+    height: 343px;
+    margin-top: 200px;
+}
+
+.header h6{
+    width: 495px;
+    height: 110px;
+    font-family: inter;
+    font-weight: 500px;
+    font-size: 48px;
+    color:#333333;
+    margin-bottom: 50px;
+}
+
+
+.header p{
+    width: 479px;
+    height: 104px;
+    font-family: INTER;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #4f4f4f;
+}
+
+.header button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 350px;
+    height: 73px;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: #66AC66;
+    color: white;
+    border: none;
+    outline: none;
+
+}
+
+.main {
+    display: flex;
+    margin-top: 100px; 
+    gap: 109px;   
+}
+
+.main .left p{
+    color: #F3B562;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.main .left h2{
+    color: #647B64;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 41px;
+    margin-bottom: 30px;
+
+}
+
+.main .left h6{
+    width: 412px;
+    height: 105px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main .left button{
+    width: 350px;
+    height: 73px;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: #66AC66;
+    color: white;
+    border: none;
+    outline: none;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card{
+    width: 288px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card img {
+    height: 28px;
+    width: 28px;
+}
+
+.card h3{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+}
+
+.card p{
+    width: 221px;
+    height: 51px;
+}
+

@@ -1,0 +1,141 @@
+@media(min-width:390px) and (max-width: 844px) {
+   .navbar ul{
+    display: none;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar img{
+        width: 138.44px;
+        height: 33px;
+    }
+
+    .navbar button{
+        display: none;
+    }
+
+    .navbar .nav__icon{
+        width: 28px;
+        height: 28px;
+        margin-left: 100px;
+
+    }
+
+    .header .header__right{
+        display: none;
+    }    
+
+    
+  
+
+    .header__left h6{
+        width: 313px;
+        height: 55px; 
+        font-family: inter;
+        font-weight: 500;
+        font-size: 24px;
+        color: #333;
+        /* margin-top: 100px; */
+    }
+
+    .header__left p{
+        width: 306px;
+        height: 52px;
+        font-family: inter;
+        font-weight: 400;
+        font-size: 10x;
+    }
+
+    .header__left button{
+        width: 224px;
+        height: 50px;
+        font-family: inter;
+        font-weight: 900;
+        font-size: 10px;
+        background-color: #66AC66;
+        color: white;
+
+        margin-top: 80px;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .left p{
+        font-family: inter;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .main .left h2{
+        width: 206px;
+        /* height: 25px; */
+        font-family: inter;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .main .left h6{
+        width: 258px;
+        height: 52px;
+        font-family: inter;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .main .left button{
+        width: 195px;
+        height: 47px;
+        font-family: inter;
+        font-weight: 900;
+        font-size: 10px;
+    }
+
+    .main .right .cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 311px;
+        height: 260px;
+    }
+
+    .main .right .card{
+        width: 155px;
+        height: 127px;
+    }
+
+    .main .right .card img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .right .card h3{
+        font-family: inter;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .right .card p{
+        width: 113px;
+        height: 27px;
+        font-family: inter;
+        font-weight: 400;
+        font-size: 8px;
+    }
+
+}
+
+@media(min-width:1025px) and (max-width:1920px){
+    .navbar .nav__icon{
+        display: none;
+    }
+}
